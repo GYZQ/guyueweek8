@@ -24,20 +24,12 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
 module.exports = {
   solidity: "0.8.4",
-/*
+
   networks: {
-    "local-devnode": {
-       url: "http://localhost:8545",
-       accounts: { mnemonic: "test test test test test test test test test test test junk" }
-    },
-    "optimistic-kovan": {
-       url: "https://kovan.optimism.io",
-       accounts: { mnemonic: process.env.MNEMONIC }
-    },
-    "optimism": {
-       url: "https://mainnet.optimism.io",
-       accounts: { mnemonic: process.env.MNEMONIC }
+    "goerli": {
+       url: "https://opt-goerli.g.alchemy.com/v2/CuYiTcQVeAIgpg9-81Y-WExr-o5ofKUc",
+       accounts: ["0d548fde64152fe110650c96cc9565c415f3523653ec632c8c83efab016a9c59"]
     }
   }
-*/
+
 };
