@@ -27,8 +27,8 @@ module.exports = {
 
   networks: {
     "goerli": {
-       url: "https://opt-goerli.g.alchemy.com/v2/CuYiTcQVeAIgpg9-81Y-WExr-o5ofKUc",
-       accounts: ["0d548fde64152fe110650c96cc9565c415f3523653ec632c8c83efab016a9c59"]
+       url: "",
+       accounts: [""]
     }
   }
 
